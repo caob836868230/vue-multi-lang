@@ -32,6 +32,13 @@ vue框架下语言切换功能
 | changeLang      | (langType (string 语言类型), lang (Object 语言包对象) | 修改语言环境 |
 | cleanLang       | - 无     | 清空语言环境 |
 
+```javascript
+  // 使用示例
+  this.$TbLang.changeLang('en', {...});
+
+  this.$TbLang.cleanLang();
+```
+
 ## 可获取到的参数（这里默认targetName设置为'$TbLang'）
 1. 语言包数据：假设语言包设置成{test: 'hello world'}，可以通过this.$TbLang.lang.test获取到值，template获取如下：
 ```html
