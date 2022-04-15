@@ -15,28 +15,17 @@ export default {
     resolve(),
     commonjs(),
     babel({
-      runtimeHelpers: true,
       exclude: 'node_modules/**',
       presets: [
-        [
-          "@babel/preset-env",
-          {
-            "modules": false,
-            "targets": {
-              "browsers": [
-                "last 2 versions",
-                "Android >= 4.4",
-                "ios >= 7"
-              ]
-            }
-          }
-        ]
-      ],
-      plugins: [
-        ["@babel/plugin-transform-runtime", {
-          "corejs": {
-            "version": 3
-          }
+        ["@babel/preset-env", {
+          "targets": {
+            "browsers": [
+              "last 2 versions",
+              "Android >= 4.4",
+              "ios >= 7"
+            ],
+          },
+          "modules": false
         }]
       ]
     }),
