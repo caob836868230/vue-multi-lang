@@ -1,6 +1,6 @@
 {
   "name": "vue-switch-multi-lang",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/vue-multi-lang.cjs.js",
   "module": "dist/vue-multi-lang.esm.js",
