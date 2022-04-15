@@ -1,6 +1,6 @@
 {
   "name": "vue-multi-lang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/vue-multi-lang.cjs.js",
   "module": "dist/vue-multi-lang.esm.js",
@@ -13,7 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/caob836868230/vue-multi-lang.git"
   },
-  "keywords": [],
+  "keywords": [
+    "vue-lang",
+    "vue-lang-plugin",
+    "vue-multi-lang",
+    "vue"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
